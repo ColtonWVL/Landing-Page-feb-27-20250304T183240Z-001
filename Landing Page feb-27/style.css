@@ -12,5 +12,24 @@ margin: 0;
 }
 .text-container
 {
-    color: white;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-37%, -20%);
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.text-container h1
+{
+    font-size: 50px;
+    color: brown;
+}
+.text-container h2 
+{
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: right;
 }
